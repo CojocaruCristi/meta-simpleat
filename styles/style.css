@@ -1,0 +1,817 @@
+/* modal cookie */
+.cookies-body {
+    width: auto;
+    min-height: 80px;
+    background-color: #121920;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.cookies-warning {
+    padding-left: 11px;
+    padding-right: 20px;
+}
+.cookies-body span {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1;
+}
+.cookies-body button {
+    width: 118px;
+    height: 40px;
+}
+/* Header ----------------------------------> */
+
+.header {
+    width: 100%;  
+    background-color: #f0f6f4 ; 
+}
+.header a {
+    color: #121920;
+}
+
+.headerContainerRow div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainLogo img {
+    height: 68px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.singIn-orderNow {
+    justify-content: flex-end;
+}
+.singIn-orderNow button {
+    width: 130px;
+    height: 43px;
+}
+
+/* Hero-Section -------------------------------------> */
+
+.Hero {
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 108px;
+}
+
+
+.bottles{
+    display: flex;
+    justify-content: center;
+}
+
+.bottlesForma{
+    display: flex;
+    justify-content: center;
+}
+.bottlesForma .bottlesFormaPresentational{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.bottlesForma .bottlesFormaPresentational .par {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    font-weight: 550;
+    height: 72px;
+    margin-bottom: 0px;
+}
+
+.bottlesForma .bottlesFormaPresentational .underPar {
+    font-weight: bold;
+}
+
+.bottlesForma .bottlesFormaPresentational img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottlesFormaPresentational select {
+    width: 500px;
+    height: 60px;
+    margin-top:10px;
+}
+
+.bottlesFormaPresentational input {
+    height: 40px;
+    width: 40px;
+}
+.HeroCheckboxBlock {
+    display: flex;
+    width: 100%;
+    margin-top: 24px;
+}
+.HeroCheckboxBlock input {
+    margin-right: 20px;
+}
+.HeroCheckboxBlock .firstCheckbox, .secondCheckbox {
+    display: flex;
+    align-items: center;
+}
+
+.firstCheckbox {
+    margin-right: 151px;
+}
+#seconCheckboc-description {
+    padding: 14px;
+    background-color: #ffffff;
+    font-size: 13px;
+    min-width: 231px;
+    min-height: 97px;
+    top: 38%;
+    left: 50%;
+    display: none;
+}
+.HeroCheckboxBlock span {
+    text-align: justify;
+}
+
+.subscribeBlock{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.subscribeBlock button {
+    width: 261px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.infoPay {
+    text-align: justify;
+}
+.one-timeBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    display: none;
+}
+.one-timeBlock button{
+    width: 261px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* WhatIsSimpleat-Section ------------------------------->*/
+
+.whatIsSimpleat{
+    min-height: 562px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #36c1ba;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.description img {
+    width: 35px;
+    height: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.description p {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    line-height: normal;
+}
+.firstSection {
+    margin-bottom: 20px;
+}
+
+.video {
+    background-image: url("../img/Rounded Rectangle 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 384px;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+/* Modal -------------------------> */
+.modal-content {
+    background: transparent;
+    border: none;
+}
+
+/* whySimpleat ---------------------> */
+
+.whySimpleat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-height: 776px;
+}
+
+.whysimpleat-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.whysimpleat-header p {
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-family: Bebas Neue;
+    line-height: normal;
+
+}
+.whysimpleat-header img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.first {
+    background-image: url("../img/sécurité-alimentaire.png");
+}
+
+.second {
+    background-image: url("../img/time-wallpaper-4.png");
+}
+.third {
+    background-image: url("../img/everydollar-15-insanely-simple-ways-to-save-money.png");
+}
+.fourth {
+    background-image: url("../img/bigstock-happy-family-having-fun-outdoo-18400544.png");
+}
+.fifth {
+    background-image: url("../img/shutterstock_91957046.png");
+}
+.sixth {
+    background-image: url("../img/constantly-hungry-then-try-this.png");
+}
+.whysimpleat-imgblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 165px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 37px;
+}
+.whysimpleat-infoBlock p {
+    font-family: Bebas Neue;
+    font-size: 24px;
+}
+
+.whysimpleat-infoBlock span{
+    color: #41474d;
+    font-size: 13px;
+}
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whySimpleas-button {
+    text-align: center;
+}
+.whySimpleas-button button {
+    font-size: 18px;
+    font-weight: bold;
+    width: 249px;
+    height: 60px;
+}
+.whySimpleat-benefits {
+    margin-bottom: 20px;
+}
+
+/* testimonial ------------------------> */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f6f4;
+    min-height: 595px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.testimonial-header {
+    text-align: center;
+}
+.testimonial-header p {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    margin: 0px;
+    line-height: normal;
+}
+.testimonial-header img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.testimonial-col {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.testimonial-card{
+    border-radius: 10px;
+    width: 263px;
+    height: 263px;
+}
+.testimonial-card img {
+    position: absolute;
+}
+.testimonial-card-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+    padding: 15px 15px 15px 15px;
+
+}
+.testimonial-card-info p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    line-height: normal;
+}
+.testimonial-card-info span {
+    font-size: 13px;
+    color: #ffffff;
+}
+.testimonial-button {
+    text-align: end;
+}
+.testimonial-button svg {
+    cursor: pointer;
+}
+.no-video svg {
+    cursor: initial;
+    display: none;
+}
+
+/* mainIngredients ------------------> */
+
+.mainIngredients {
+    min-height: 743px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.mainIngredients-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mainIngredients-header p {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    margin: 0;
+    line-height: normal;
+}
+
+.mainIngredients-header img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainIngredients-block {
+    width: 193px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.mainIngredients-block-img {
+    width: 194px;
+    margin-bottom: 21px;
+}
+.mainIngredients-block-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainIngredients-block-description p{
+    font-family: Bebas Neue;
+    font-size: 24px;
+    
+}
+.mainIngredients-block-description span {
+    font-size: 13px;
+}
+
+/* nutritionFacts --------------------------> */
+
+.nutritionFacts {
+    min-height: 882px;
+    background-color: #f0f6f4;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.nutritionFacts-header {
+    text-align: center;
+}
+.spanB {
+    line-height: 1;
+}
+.nutritionFacts-header p {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    margin: 0px;
+    line-height: normal;
+}
+.nutritionFacts-header img {
+    margin-top: 10px;
+}
+.left-content-section, .right-content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left-content-el {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.el-description {
+    text-align: end;
+    margin-right: 25px;
+}
+.el-description p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.el-description span {
+    font-size: 14px;
+    color: #41474d;
+}
+.right-content-el {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.right-el-description {
+    text-align: start;
+    margin-left: 25px;
+}
+.right-el-description p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.right-el-description span {
+    font-size: 14px;
+    color: #41474d;
+}
+
+.nutritionFacts-footer {
+    text-align: center;
+}
+.download-pdf{
+    margin-bottom: 38px;
+}
+.download-pdf a {
+    font-size: 18px;
+}
+.button-orderNow button {
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+}
+
+/* stats --------------------> */
+
+.stats {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.stats-header {
+    text-align: center;
+}
+.stats-header p {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    line-height: normal;
+}
+.stats-header img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.stats-header span {
+    color: #41474d;
+}
+.stats-img img {
+    width: 100%;
+}
+/* superFood ---------------------> */
+
+.superFood {
+    min-height: 1070px;
+    background-color: #f0f6f4;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.superFood-header p {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    line-height: normal;
+}
+.superFood-header img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.superFood-header span {
+    color: #41474d;
+}
+.superFood-categories { 
+    margin-bottom: 39px;
+}
+.categories {
+    cursor: pointer;
+}
+.superFood-categories p {
+    font-family: Bebas Neue;
+    font-size: 24px;
+    line-height: normal;
+    margin: 0px;
+}
+.superFood-categories hr {
+    width: 30px;
+    border: 2px solid #121920;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.superFood-content {
+    background-color: #ffffff;
+}
+.superFood-content img {
+    width: 125px;
+    height: 365px;
+}
+.superFood-content p {
+    font-size: 30px;
+    font-family: Montserrat;
+    margin: 0px;
+    line-height: normal;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.superFood-content table {
+    line-height: 1;
+}
+.superFood-content table thead tr {
+    border-top: hidden !important;
+}
+.superFood-content table tbody th {
+    color: #36c1ba;
+}
+.superFood-content table tbody td {
+    color: #41474d;
+} 
+
+
+.active-category {
+    color: #36c1ba;
+}
+.active-category-hr {
+    width: 70px !important;
+    border: 2px solid #36c1ba !important;
+    transition: 0.3s;
+}
+.vitamins-table, .minerals-table {
+    display: none;
+}
+
+
+/* joinUs ------------------------------> */
+
+.joinUs {
+    min-height: 415px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.joinUs-header {
+    text-align: center;
+}
+.joinUs-header p {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    margin: 0px;
+    line-height: normal;
+}
+.joinUs-header img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.joinUs-header span {
+    color: #41474d;
+}
+.joinUs-content {
+    width: 750px;
+    flex-wrap: wrap;
+}
+.joinUs-content input {
+    width: 500px;
+    height: 60px;
+    font-size: 24px;
+}
+.joinUs-content button {
+    width: 210px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* footer ---------------> */
+
+footer {
+    height: 322px;
+    color: #ffffff;
+}
+.top-footer {
+    background-color: #192632;
+    width: 100%;
+    height: 242px;
+}
+.bottom-footer {
+    background-color: #121920;
+    min-height: 80px;
+}
+.top-footer-content {
+    width: 245px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.links {
+    width: 100%;
+}
+.another-links a{ 
+    color: #ffffff;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+.vl {
+    border-left: 1px solid #445059;
+    height: 30px;
+}
+
+.lastEl {
+    width: 100%;
+}
+.number {
+    margin-right: 28px;
+    cursor: pointer;
+}
+.email {
+    cursor: pointer;
+}
+.number span {
+    line-height: 1;
+}
+.number-svg {
+    margin-right: 15px;
+}
+.email-svg {
+    margin-right: 15px;
+}
+
+.lg-button {
+    background-color: #1e252b;
+    border: none;
+    width: 195px;
+    height: 40px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .left-content-el {
+        margin-right: 0px !important;
+        margin-bottom: 20px;
+    }
+    .right-content-el {
+        margin-left: 0px !important;
+        margin-bottom: 20px;
+    }
+    .middle-content-el {
+        margin-bottom: 20px ;
+    }
+    .superFood-header {
+        margin-bottom: 30px;
+        
+    }
+    .cookies-body span {
+        font-size: 10px;
+    }
+    .cookies-body button {
+        width: 90px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .header {
+        position: static;
+    }
+    .joinUs-content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .joinUs-content input {
+        margin-bottom: 20px;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 495px) {
+    .bottles img {
+        width: 300px;
+        height: 300px;
+    }
+    .foodInfo {
+        width: 251px;
+    }
+    .bottlesFormaPresentational select {
+        width: 100%;
+    }
+    .subscribeBlock {
+            flex-direction: column;
+        }
+    .one-timeBlock{
+        flex-direction: column;
+    }
+
+    .video {
+        height: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 430px){
+    .bottlesFormaPresentational select {
+        width: 298px;
+    }
+    .firstCheckbox {
+        margin-right: 6px;
+        margin-left: 15px;
+    }
+    .playIcon img {
+        width: 50px;
+        height: 50px;
+    }
+    .number {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .email-number {
+        margin-bottom: 20px;
+    }
+    
+}
+@media only screen and (max-width: 495px) {
+    .mainIngredients-col {
+        justify-content: center !important;
+    }
+}
+@media only screen and (max-width: 335px) {
+    .bottlesForma .bottlesFormaPresentational .par {
+        font-size: 50px;
+    }
+    .video{
+        height: 170px;
+    }
+    
+}
