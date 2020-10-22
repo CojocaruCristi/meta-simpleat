@@ -1,9 +1,4 @@
-// let cookiesModal = document.getElementById("cookiesModal");
-
-// window.addEventListener("load", () => {
-//     cookiesModal.show
-// })
-
+//on page load display modal popup with cookies
 $(window).on('load', function () {
     $('#cookiesModal').modal('show');
 });

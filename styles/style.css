@@ -209,7 +209,7 @@ span, button, a, input {
 }
 
 .video {
-    background-image: url("../img/Rounded Rectangle 6.png");
+    background-image: url("../img/whatIsSimpleatVideo.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 384px;
@@ -258,23 +258,23 @@ span, button, a, input {
 }
 
 .first {
-    background-image: url("../img/sécurité-alimentaire.png");
+    background-image: url("../img/vegetables.png");
 }
 
 .second {
-    background-image: url("../img/time-wallpaper-4.png");
+    background-image: url("../img/watches.png");
 }
 .third {
-    background-image: url("../img/everydollar-15-insanely-simple-ways-to-save-money.png");
+    background-image: url("../img/money.png");
 }
 .fourth {
-    background-image: url("../img/bigstock-happy-family-having-fun-outdoo-18400544.png");
+    background-image: url("../img/family.png");
 }
 .fifth {
-    background-image: url("../img/shutterstock_91957046.png");
+    background-image: url("../img/ecology.png");
 }
 .sixth {
-    background-image: url("../img/constantly-hungry-then-try-this.png");
+    background-image: url("../img/food.png");
 }
 .whysimpleat-imgblock {
     display: flex;
